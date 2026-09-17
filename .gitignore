@@ -1,0 +1,18 @@
+node_modules/
+.expo/
+dist/
+web-build/
+*.log
+.DS_Store
+
+# local env — keep .env.example, ignore real keys
+.env
+.env.*
+!.env.example
+
+# the caregiver/doctor portal has its own repository
+web-portal/
+
+# raw source images (the used copies live in assets/)
+WhatsApp Image*.jpeg
+WhatsApp Image*.jpg

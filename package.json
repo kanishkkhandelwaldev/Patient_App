@@ -1,0 +1,40 @@
+{
+  "name": "sih-patient-app-rn",
+  "version": "1.0.0",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "deploy": "expo export -p web && npx eas-cli deploy"
+  },
+  "dependencies": {
+    "@expo/metro-runtime": "~57.0.15",
+    "@expo/vector-icons": "^15.0.2",
+    "@react-native-async-storage/async-storage": "2.2.0",
+    "@react-navigation/bottom-tabs": "^6.6.1",
+    "@react-navigation/native": "^6.1.18",
+    "@react-navigation/native-stack": "^6.11.0",
+    "@supabase/supabase-js": "^2.116.0",
+    "expo": "^57.0.20",
+    "expo-image-picker": "~57.0.16",
+    "expo-speech": "~57.0.3",
+    "expo-status-bar": "~57.0.1",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "react-native": "0.86.3",
+    "react-native-safe-area-context": "~5.7.0",
+    "react-native-screens": "~4.26.0",
+    "react-native-svg": "15.15.4",
+    "react-native-url-polyfill": "^4.0.0",
+    "react-native-web": "^0.21.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.25.0",
+    "@expo/ngrok": "^4.1.3",
+    "@types/react": "~19.2.4",
+    "typescript": "~6.0.3"
+  },
+  "private": true
+}

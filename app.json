@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "Niramaya",
+    "slug": "sih-patient-app-rn",
+    "owner": "kanishk06s-team",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "backgroundColor": "#EFF5F1"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "web": {
+      "bundler": "metro",
+      "output": "single"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.sih.dementiacare",
+      "permissions": [
+        "android.permission.RECORD_AUDIO"
+      ]
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "The app uses photos so a caregiver can add a family photo to the Memory Chest."
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "71240903-1332-4d6b-9eb1-b55b71069234"
+      }
+    }
+  }
+}
